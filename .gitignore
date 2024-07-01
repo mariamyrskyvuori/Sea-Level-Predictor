@@ -1,13 +1,36 @@
+# Python-virtuaaliympäristöt
 venv/
 env/
 .myenv/
 myenv/
+
+# Python-väliaikaiset tiedostot
 __pycache__/
 *.py[cod]
+*.pyo
+*.pyd
+*.whl
+
+# Jupyter Notebook -tiedostot
 .ipynb_checkpoints/
-*.log
-*.tmp
-*.bak
+
+# Matplotlib tallennetut kuvat
 *.png
 *.jpg
 *.jpeg
+
+# MacOS-tiedostot
+.DS_Store
+
+# Logi- ja väliaikaiset tiedostot
+*.log
+*.tmp
+*.bak
+
+# Pytest-väliaikaiset tiedostot
+.cache/
+.pytest_cache/
+
+# Anaconda-tiedostot
+*.ipynb_checkpoints/
+.conda/
